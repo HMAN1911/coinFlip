@@ -1,0 +1,46 @@
+* {
+    transition: .8s;
+}
+
+body {
+  color: rgb(233, 214, 37);
+  background-color: rgb(78, 106, 178);
+  font-family: 'Passion One', cursive;
+}
+
+#app {
+  text-align: center;
+  width: 80%;
+  margin: 15% auto;
+}
+
+.trigger {
+  transform: rotateY(180deg);
+  transition: .8s;
+}
+
+.none {
+  transform: rotateY(360deg);
+  transition: .8s;
+}
+
+#scores {
+  display: none;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+hr {
+  width: 50%;
+  border: 2px solid rgb(233, 214, 37);
+}
+
+span {
+  margin-left: 2em;
+}
